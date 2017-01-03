@@ -120,3 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'chamjun.pythonanywhere.com']
